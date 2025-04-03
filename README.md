@@ -1,41 +1,33 @@
 # Monay Productivity
 
-A modern productivity suite that combines email management, smart calendar scheduling, and AI-powered features to streamline your workflow.
+A modern productivity suite that combines email management, smart calendar scheduling, and AI-powered features to streamline your workflow. 5th place HackCWRU winner. [Devpost](https://devpost.com/software/monday-productivity?ref_content=user-portfolio&ref_feature=in_progress)
 
 ## Features
-
-### 📧 Smart Email Management
 
 - Automatic email summarization and prioritization
 - AI-powered email response suggestions
 - Email archiving and organization
-- Priority-based inbox view
-- Visual indicators for replied and priority status
-
-### 📅 Intelligent Calendar Integration
-
 - AI-powered event scheduling from emails
 - Smart scheduling based on busy times and preferences
 - Natural language event creation
-- Google Calendar integration
-- Timezone-aware scheduling
+- Google Calendar, Gmail integration
 
-### 🤖 AI Assistant Features
-
-- Natural language task scheduling
-- Smart reply generation
-- Automated event detail extraction from emails
-- Context-aware scheduling suggestions
-- User preference-based customization
+## Screenshots 
+<img src="./images/original (2).png" alt="Screenshot 1" width="600"/>  
+<img src="./images/original (1).png" alt="Screenshot 2" width="600"/>  
+<img src="./images/original.png" alt="Screenshot 3" width="600"/>
 
 ## Tech Stack
 
-- **Frontend**: Next.js, TypeScript, React
-- **UI Components**: Shadcn UI
-- **Authentication**: Clerk
-- **AI Integration**: OpenAI GPT-4
-- **APIs**: Google Gmail, Google Calendar
-- **State Management**: React Hook Form, Zod
+- **Frontend**: Next.js, TypeScript, React  
+- **UI Components**: Shadcn UI  
+- **Authentication**: Clerk  
+- **AI Integration**: OpenAI GPT-4o  
+- **APIs**: Google Gmail, Google Calendar  
+- **State Management**: React Hook Form, Zod  
+- **ORM**: Prisma  
+- **Database**: PostgreSQL  
+
 
 ## Getting Started
 
@@ -80,28 +72,6 @@ yarn dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Usage
-
-1. **Email Management**
-
-   - View your inbox with AI-generated summaries
-   - Emails are automatically prioritized
-   - Click on an email to view details and take actions
-   - Archive or reply to emails with AI assistance
-
-2. **Calendar Scheduling**
-
-   - Use natural language to create events
-   - Schedule events directly from emails
-   - AI will suggest optimal times based on your calendar
-   - Manage attendees and event details
-
-3. **AI Features**
-   - Type natural language commands to schedule events
-   - Get AI-powered email reply suggestions
-   - Automatic event detail extraction from emails
-   - Smart scheduling based on preferences
 
 ## Contributing
 
